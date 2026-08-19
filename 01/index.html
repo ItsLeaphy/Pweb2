@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <script type="text/javascript">
-    function minhafuncao(){
-    alert('Teste JS');
-    }
 
-    </script>
-</head>
+    <head>
+        <title>javascript</title>
+        <script type="text/javascript">
+        function minhafuncao(arg1,arg2){
+            alert(arg1+arg2);
+        }
 
-<body>
+        function escreve(arg){
+            document.write(arg)
 
-    <h1>javascript</h1>
+        }
 
-</body>
+        </script>
 
-<button onclick="minhafuncao()">Clique </button>
+    </head>
 
+    <body>
+
+        <h1>javascript</h1>
+        <button onclick="minhafuncao(10,20)">C1ique </button>
+
+        <button onclick="escreve('<h1>PROGRAMAÇÃO WEB</h1>')">Escreve</button>
+    </body>
 </html>
